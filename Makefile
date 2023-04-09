@@ -3,7 +3,7 @@ CFLAGS	= -g -Wall
 BINDIR	= bin
 OBJDIR	= obj
 SRCDIR	= src
-BIN  	= $(BINDIR)/futils
+BIN  	= $(BINDIR)/futils.out
 SRCS 	= $(wildcard $(SRCDIR)/*.c)
 OBJS	= $(patsubst $(SRCDIR)/%.c, $(OBJDIR)/%.o, $(SRCS))
 
